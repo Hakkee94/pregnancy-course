@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/pregnancy-course/static/css/main.85cd9f66.css",
+    "main.js": "/pregnancy-course/static/js/main.d7f4bb15.js",
+    "static/js/787.7c046a2b.chunk.js": "/pregnancy-course/static/js/787.7c046a2b.chunk.js",
+    "static/media/i75.png": "/pregnancy-course/static/media/i75.f1e615b224e3d30588fd.png",
+    "static/media/i43.png": "/pregnancy-course/static/media/i43.60bc6877d093298afe18.png",
+    "static/media/i47.png": "/pregnancy-course/static/media/i47.2c8c2911a1e37051521c.png",
+    "static/media/1.png": "/pregnancy-course/static/media/1.fe49fade363a8592b246.png",
+    "static/media/i57.png": "/pregnancy-course/static/media/i57.6eea8d58efc597f5acfc.png",
+    "static/media/i40.png": "/pregnancy-course/static/media/i40.b360cc120f110a693974.png",
+    "static/media/8.png": "/pregnancy-course/static/media/8.ff5d09bb42c84e782185.png",
+    "static/media/7.png": "/pregnancy-course/static/media/7.a2c134fe75bf38a7c5a4.png",
+    "static/media/4.png": "/pregnancy-course/static/media/4.78921561eb326dadd486.png",
+    "static/media/6.png": "/pregnancy-course/static/media/6.eccfc1a57226abe2a4a5.png",
+    "static/media/2.png": "/pregnancy-course/static/media/2.495c98a95dbc932449ce.png",
+    "static/media/3.png": "/pregnancy-course/static/media/3.37bcd386b4b0f38d49ec.png",
+    "index.html": "/pregnancy-course/index.html",
+    "main.85cd9f66.css.map": "/pregnancy-course/static/css/main.85cd9f66.css.map",
+    "main.d7f4bb15.js.map": "/pregnancy-course/static/js/main.d7f4bb15.js.map",
+    "787.7c046a2b.chunk.js.map": "/pregnancy-course/static/js/787.7c046a2b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.85cd9f66.css",
+    "static/js/main.d7f4bb15.js"
+  ]
+}
