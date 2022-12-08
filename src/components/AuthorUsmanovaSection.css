@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+    align-items: center;
+    overflow-x: auto;
+}
+
+.author-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8F9FB;
+
+
+}
+
+.author {
+    display: flex;
+    min-height: 460px;
+    align-self: stretch;
+    background-color: #F8F9FB;
+    padding: 30px 0 30px 0;
+    border: 0 solid #999999;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 1200px;
+    align-self: center;
+    margin-top: 45px;
+}
+
+.author-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: Montserrat, sans-serif;
+    max-width: 1200px;
+    margin: 0 40px 0 40px;
+    padding-left: 40px;
+}
+
+.champ {
+    font-size: 18px;
+}
+
+.pink {
+    color: #E91776;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 23px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.author-name {
+    font-family: 'Bebas Neue';
+    font-weight: 900;
+    color: #000;
+    font-size: 64px;
+    text-transform: uppercase;
+    line-height: 1.42857143;
+    text-align: center;
+}
+
+.author-video {
+    margin: 0 40px 0 40px;
+    max-height: 50vh;
+    max-width: 50vw;
+}
+
+.author-video iframe {
+    display: flex;
+    max-width: 534px;
+    max-height: 300px;
+    height: 100vh;
+    width: 100vw;
+}
+
+.course-text {
+    font-size: 18px;
+}
+
+.css-vokdf9 {
+    color: #000000;
+}
+
+.css-ed82ln {
+    padding-top: 70px;
+}
+
+.css-b0t1k7 {
+    min-height: 100px;
+}
+
+@media screen and (max-width: 460px) {
+
+    .course-text {
+        font-size: 16px;
+    }
+
+    .pink {
+        font-size: 22px;
+    }
+
+    .champ {
+        font-size: 16px;
+    }
+
+    .author-name {
+        /*text-align: center;*/
+        font-size: 40px;
+    }
+
+    .author-video iframe {
+        display: flex;
+        width: 300px;
+        height: 169px;
+        margin-left: 10px;
+    }
+
+    .author {
+        align-self: inherit;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    .author {
+        flex-direction: column;
+    }
+
+    .author-info {
+        /*align-items: center;*/
+        padding-bottom: 30px;
+    }
+
+    .author-name {
+        /*text-align: center;*/
+    }
+
+    .author-info {
+        padding: 30px 0 30px 0px;
+    }
+}
+
+@media screen and (max-width: 1070px) {
+    .author-video {
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,114 @@
+.what-will-you-get-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFECF5;
+    max-width: 1200px;
+    padding-bottom: 70px;
+}
+
+.what-will-you-get-container h1 {
+    font-family: 'Bebas Neue';
+    padding-top: 30px;
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.you-gain-box {
+    display: flex;
+    flex-direction: column;
+    flex-basis: calc(33% - 30px);
+    margin: 0 15px 30px;
+    background: #FFECF5;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.you-gain-box:hover {
+    position: relative;
+    transform: translateY(-10px);
+}
+
+.you-gain-box h1 {
+    color: #EA1077;
+    text-align: center;
+    font-size: 60px;
+}
+
+.you-gain-box h2 {
+    text-align: center;
+}
+
+.you-get-box-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.take-part-btn {
+    width: 270px;
+    height: 70px;
+    color: #FFFFFF;
+}
+
+.take-part-btn button:hover {
+    opacity: 0.8;
+}
+
+.take-part-btn button {
+    min-width: 270px;
+    text-decoration: none;
+    text-align: center;
+    background: linear-gradient(90deg, #FF5BA9 0%, #E91776 99.93%);
+    border-bottom: 4px solid #cf1469;
+    font-size: 18px;
+    line-height: 1;
+    font-weight: 600;
+    border-radius: 6px;
+    padding: 24px 40px;
+    min-height: auto;
+    transition: all 0.2s;
+    z-index: 1;
+    box-shadow: 0px 12px 22px 0px #ee477780;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.you-get-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFECF5;
+}
+
+
+
+@media screen and (max-width: 430px) {
+    .what-will-you-get-container h1 {
+        font-size: 42px;
+        margin: 0;
+        padding-top: 15px;
+    }
+
+    .you-gain-box-container {
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    .you-gain-box {
+        margin-bottom: 0;
+
+    }
+
+    .take-part-btn {
+        padding-top: 40px;
+    }
+}
+
+@media screen and (min-width: 530px) {
+    happy-girl-img img {
+        display: none;
+    }
+}
+

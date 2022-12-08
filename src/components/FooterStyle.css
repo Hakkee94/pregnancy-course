@@ -1,0 +1,10 @@
+.footer-container {
+    background: #333;
+    display: flex;
+    padding: 30px;
+}
+
+.feedback div a {
+    color: #FFFFFF;
+}
+

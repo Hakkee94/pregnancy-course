@@ -1,0 +1,128 @@
+.instamama {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 70px;
+
+}
+
+.instamama-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.instamama-font {
+    font-family: 'Bebas Neue';
+    font-weight: 900;
+    text-align: left;
+    color: #000;
+    font-size: 72px;
+    text-transform: uppercase;
+    line-height: 1.42857143;
+    line-height: 0.8;
+    padding-bottom: 10px;
+}
+
+.instamama-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1049px;
+    padding: 10px 0 40px;
+}
+
+.instamama-image {
+    display: flex;
+    height: 300px;
+    width: 215px;
+    margin: 10px 10px 15px 10px;
+    cursor: pointer;
+    border-radius: 6px;
+    overflow: hidden;
+    transform: scale(1);
+    transition: all ease .3s;
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.instamama-image:hover {
+    filter: brightness(0.7);
+    transform: scale(1);
+    transition: all ease .3s;
+
+}
+
+.instamama span {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+.instamama-image img {
+    object-fit: cover;
+
+}
+
+.first-slider {
+    width: 90%;
+    padding: 20px;
+}
+
+.full-size-img-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.full-size-img-container img {
+    background-size: cover;
+    height: 800px;
+}
+
+@media screen and (max-width: 460px) {
+    .instamama-font {
+        font-size: 40px;
+    }
+
+    .instamama span {
+        font-size: 16px;
+    }
+
+    .instamama-text {
+        /*display: flex;*/
+        /*flex-direction: column;*/
+        /*justify-content: center;*/
+        padding-bottom: 20px;
+    }
+}
+
+
+@media screen and (max-width: 860px) {
+    .instamama-images {
+        display: none;
+    }
+
+
+}
+
+@media screen and (min-width: 860px) {
+    .first-slider {
+        display: none;
+    }
+}
+
+
+

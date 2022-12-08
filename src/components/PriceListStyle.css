@@ -1,0 +1,180 @@
+.price-list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+}
+
+.price-list-container h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+    font-family: "Bebas Neue";
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.price-list-container h2 {
+    font-size: 20px;
+    font-family: Montserrat, sans-serif;
+}
+
+.price-list-main-text {
+    display: flex;
+    padding-top: 50px;
+    /*width: 90%;*/
+}
+
+.price-list-main-text h1 {
+    font-size: 64px;
+    font-family: "Bebas Neue";
+    line-height: 1;
+    font-weight: 700;
+
+}
+
+.price-option {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+.choice-container {
+    display: flex;
+    align-items: baseline;
+}
+
+.choice-container h2 {
+    color: #1A202C;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.choice-container input {
+    padding-top: 10px;
+}
+
+.choice-container div {
+    position: relative;
+    top: 11px;
+}
+
+.course-time {
+    padding-left: 23px;
+}
+
+.course-time h3 {
+    color: #999999;
+
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.last-choice-container div {
+    position: relative;
+    top: 4px;
+}
+
+.last-choice-container h2 {
+    color: #1A202C;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.last-choice-container {
+    display: flex;
+}
+
+.continue-btn {
+    width: 300px;
+    height: 48px;
+    background: #EE4777;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 30px 0 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.continue-btn:hover {
+    /*filter: brightness(0.5);*/
+    opacity: 0.8;
+}
+
+.installment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 0 80px 0;
+}
+
+.installment h2 {
+    font-size: 20px;
+    font-family: Montserrat, sans-serif;
+    color: #000000;
+    text-align: center;
+
+}
+
+.installment h3 {
+    color: #878787;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+.start {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 40px;
+}
+
+.start img {
+    margin-right: 15px;
+}
+
+.price-list-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+@media screen and (max-width: 900px) {
+    .last-choice-container h2 {
+        max-width: 450px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .last-choice-container h2 {
+        max-width: 450px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .last-choice-container h2 {
+        max-width: 350px;
+    }
+
+    .price-list-main-text h1 {
+        font-size: 40px;
+    }
+}
+
+/*@media screen and (max-width: 430px) {*/
+/*    .price-list-container {*/
+/*        margin-left: 40px;*/
+/*    }*/
+/*}*/
+
+

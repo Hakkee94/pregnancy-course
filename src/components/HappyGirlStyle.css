@@ -1,0 +1,12 @@
+.happy-girl-img img {
+    position: relative;
+    bottom: 100px;
+    left: 300px;
+
+}
+
+.happy-girl-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

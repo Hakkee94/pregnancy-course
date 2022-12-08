@@ -1,0 +1,43 @@
+.enroll-section-container {
+    max-width: 1200px;
+    justify-content: center;
+    align-self: center;
+}
+
+.enroll-section h1 {
+    font-family: 'Bebas Neue';
+    color: #000000;
+    font-size: 60px;
+    line-height: normal;
+    font-weight: 900;
+    display: contents;
+    padding-bottom: 20px;
+}
+
+.enroll-section {
+    display: flex;
+    max-width: 1200px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-arrow {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 38px;
+}
+
+.enroll-header {
+    max-width: 1200px;
+    width: 100vw;
+    padding: 0 30px;
+}
+
+
+@media screen and (max-width: 700px) {
+    .enroll h1 {
+        font-size: 40px;
+    }
+}

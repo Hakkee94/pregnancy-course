@@ -1,0 +1,126 @@
+.prepare-your-body-container h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    width: 90%;
+}
+
+.prepare-body-text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+.prepare-your-body-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.trimester-container {
+    background-color: #F8F9FB;
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.first-column {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    padding: 35px;
+}
+
+.second-column {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    padding: 30px;
+    justify-content: center;
+}
+
+.second-column ul li {
+    border-bottom: none;
+    align-self: baseline;
+    list-style-type: square;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 10px;
+    position: relative;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.second-column ul li:hover {
+    position: relative;
+    transform: translateX(10px);
+}
+
+
+.second-column ul li::marker {
+    list-style-type: square;
+    color: #cf1469;
+}
+
+.first-column img {
+    width: 110px;
+    height: 110px;
+}
+
+.first-column h2 {
+    font-size: 20px;
+    color: black;
+}
+
+.second-column h2 {
+    font-size: 20px;
+    color: rgb(234, 16, 119);
+    padding-bottom: 10px;
+}
+
+.prepare-body-text h1 {
+    font-size: 72px;
+    font-family: "Bebas Neue";
+    line-height: 1.2;
+}
+
+.first-column h1 {
+    font-family: "Bebas Neue";
+    font-size: 55px;
+    padding-top: 15px;
+}
+
+
+@media screen and (min-width: 999px) {
+    .prepare-body-text {
+        min-width: 1000px;
+    }
+}
+
+
+@media screen and (max-width: 870px) {
+    .trimester-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .prepare-body-text h1 {
+        font-size: 40px;
+    }
+
+    /*.prepare-your-body-container h1 {*/
+    /*    font-size: 40px;*/
+    /*}*/
+    .second-column {
+        /*margin-right: 40px;*/
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .first-column h2 {
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,56 @@
+.contraindication-container {
+    display: flex;
+    background: #FFECF6;
+    max-width: 1200px;
+    align-self: center;
+    margin-bottom: 70px;
+}
+
+.contraindication-title h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #E91776;
+    font-family: "Bebas Neue";
+    padding: 30px;
+    text-align: start;
+    line-height: 1.2;
+}
+
+.contraindication-title {
+    display: flex;
+    align-items: center;
+}
+
+.contraindication-list {
+    padding: 30px 0 30px 30px;
+}
+
+.contraindication-list h3 {
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    color: #863159;
+}
+
+.contraindication-list div {
+    margin-top: 20px;
+}
+
+.contraindication-list span {
+    color: #863159;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media screen and (max-width: 920px) {
+    .contraindication-container {
+        flex-direction: column;
+    }
+
+    .contraindication-title h1 {
+        font-size: 40px;
+    }
+}
+/*@media screen and (max-width: 430px) {*/
+/*    .contraindication-container {*/
+/*        margin-left: 40px;*/
+/*    }*/
+/*}*/
