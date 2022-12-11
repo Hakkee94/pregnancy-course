@@ -41,7 +41,6 @@ ul {
     font-family: 'Bebas Neue';
     text-transform: uppercase;
     text-align: center;
-    padding-top: 50px;
     line-height: 1.2;
     display: flex;
     justify-content: center;
@@ -52,19 +51,19 @@ ul {
 }
 
 .ul-list {
-    padding-bottom: 25px;
     display: flex;
     justify-content: center;
 }
 
 .ul-list ul li:last-child {
     border-bottom: 0;
-
 }
 
-/*.line-none {*/
-/*    border-bottom: 0;*/
-/*}*/
+@media screen and (max-width: 740px) {
+    .inventory-container h1 {
+        font-size: 35px;
+    }
+}
 
 @media screen and (min-width: 1200px) {
     .inventory-container {

@@ -1,20 +1,18 @@
 .prepare-your-body-container h1 {
     text-transform: uppercase;
     font-size: 40px;
-    width: 90%;
 }
 
 .prepare-body-text {
     display: flex;
     justify-content: center;
     text-align: center;
-    padding-bottom: 35px;
+    padding: 15px;
 }
 
 .prepare-your-body-container {
     display: flex;
     justify-content: space-between;
-    padding-top: 50px;
     flex-direction: column;
     align-items: center;
 }
@@ -52,6 +50,7 @@
     position: relative;
     transition-property: all;
     transition-duration: 1s;
+    text-align: left;
 }
 
 .second-column ul li:hover {
@@ -73,6 +72,7 @@
 .first-column h2 {
     font-size: 20px;
     color: black;
+    line-height: 1.4;
 }
 
 .second-column h2 {
@@ -108,14 +108,7 @@
     }
 
     .prepare-body-text h1 {
-        font-size: 40px;
-    }
-
-    /*.prepare-your-body-container h1 {*/
-    /*    font-size: 40px;*/
-    /*}*/
-    .second-column {
-        /*margin-right: 40px;*/
+        font-size: 35px;
     }
 }
 

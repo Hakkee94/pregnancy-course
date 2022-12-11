@@ -47,6 +47,7 @@
 
 .question-item a {
     /*text-align: start;*/
+    color: black;
 }
 
 .question-item:hover {
@@ -77,6 +78,6 @@ a {
 
 @media screen and (max-width: 430px) {
     .faq-title h1 {
-        font-size: 40px;
+        font-size: 30px;
     }
 }

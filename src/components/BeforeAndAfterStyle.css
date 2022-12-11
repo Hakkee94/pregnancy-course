@@ -44,7 +44,21 @@
     opacity: 0.8;
 }
 
-.show-more-btn {
+/*.show-more-btn {*/
+/*    width: 220px;*/
+/*    height: 60px;*/
+/*    border-radius: 6px;*/
+/*    background: linear-gradient(90deg, #FF5BA9 0%, #E91776 99.93%);*/
+/*    color: #FFFFFF;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    cursor: pointer;*/
+/*    margin: 40px 0 60px;*/
+/*    font-family: 'Montserrat', sans-serif;*/
+/*}*/
+
+.show-more-btn button {
     width: 220px;
     height: 60px;
     border-radius: 6px;
@@ -56,6 +70,10 @@
     cursor: pointer;
     margin: 40px 0 60px;
     font-family: 'Montserrat', sans-serif;
+    border: none;
+    font-size: 18px;
+    line-height: 1;
+    font-weight: 600;
 }
 
 .show-more-btn:hover {

@@ -16,7 +16,7 @@ const EnrollSection = () => {
                 <div className='beauty-box-container'>
                     <BeautyBox
                         src='https://fs-thb03.getcourse.ru/fileservice/file/thumbnail/h/41020959ec9361d53339afa2bdd79784.png/s/500x/a/3187/sc/59'
-                        strongText='Хотите сохранить красоту тела' tallText='&#133; во время беременности'/>
+                        strongText='Хотите сохранить красоту тела' tallText='во время беременности'/>
                     <BeautyBox
                         src='https://fs-thb02.getcourse.ru/fileservice/file/thumbnail/h/8cbf01a4fc9fd1953835edc82c9e33e3.png/s/500x/a/3187/sc/300'
                         strongText='Мечтаете быстро вернуть прежнюю форму' tallText='после родов'/>

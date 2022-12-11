@@ -90,9 +90,23 @@
 }
 
 .continue-btn {
+    /*width: 300px;*/
+    /*height: 48px;*/
+    /*background: #EE4777;*/
+    /*color: #FFFFFF;*/
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*border-radius: 6px;*/
+    /*cursor: pointer;*/
+    /*margin: 30px 0 50px;*/
+    /*font-family: 'Montserrat', sans-serif;*/
+}
+
+.continue-btn button {
     width: 300px;
     height: 48px;
-    background: #EE4777;
+    background: linear-gradient(90deg, #FF5BA9 0%, #E91776 99.93%);
     color: #FFFFFF;
     display: flex;
     justify-content: center;
@@ -101,6 +115,9 @@
     cursor: pointer;
     margin: 30px 0 50px;
     font-family: 'Montserrat', sans-serif;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
 }
 
 .continue-btn:hover {
@@ -134,7 +151,7 @@
 .start {
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     padding-bottom: 40px;
 }
 

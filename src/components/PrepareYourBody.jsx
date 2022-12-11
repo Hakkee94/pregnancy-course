@@ -6,8 +6,8 @@ const PrepareYourBody = () => {
         <div className='prepare-your-body-container'>
 
             <div className='prepare-body-text'>
-                <h1><strong style={{color: '#EA1077'}}>на&nbsp;курсе</strong>&nbsp;<strong>вы&nbsp;подготовите тело к<br/>физическим
-                    изменениям:</strong></h1>
+                <h1><h1 style={{color: '#E91776', margin: '0'}}>на курсе</h1>вы подготовите тело к физическим
+                    изменениям:</h1>
             </div>
 
             <div className='trimester-container'>

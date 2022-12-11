@@ -10,7 +10,7 @@ const Presents = () => {
 
             <div className='presents-second-column'>
                 <div>
-                    <h1><strong style={{color: '#E91776'}}>подарки<br/></strong><strong>за покупку</strong></h1>
+                    <h1><strong style={{color: '#E91776'}}>подарки </strong><strong>за покупку</strong></h1>
                     <h2><strong>Полезные материалы</strong> для будущих мам</h2>
                 </div>
 

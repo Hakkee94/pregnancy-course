@@ -6,14 +6,28 @@ const AuthorUsmanovaSection = () => {
         // <div className='author-container'>
             <div className='author'>
                 <div className='author-info'>
-                    <h2 className='pink uppercase'>АВТОР КУРСА</h2>
-                    <h1 className='author-name'>любовь&nbsp;шаманова</h1>
-                    <h2 className='champ' style={{paddingTop: '10px', paddingBottom: '15px', color: 'black'}}>Чемпионка России по фитнес-бикини и молодая
-                        мама, ожидающая второго ребёнка.</h2>
-                    <h2 style={{paddingBottom: '15px', color: 'black'}}><strong>После первых родов сбросила 20 кг за 100
-                        дней, </strong> благодаря собственной системе
-                        тренировок для беременных.</h2>
-                    <h2 className='course-text'><strong style={{paddingTop: '15px', color: 'black'}}>Смотрите видео о курсе 🥳 🎉</strong></h2>
+                    <div>
+                        <h2 className='pink uppercase'>АВТОР КУРСА</h2>
+                    </div>
+
+                    <div>
+                        <h1 className='author-name'>любовь&nbsp;шаманова</h1>
+                    </div>
+
+                    <div>
+                        <h2 className='champ' style={{color: 'black'}}>Чемпионка России по фитнес-бикини и молодая
+                            мама, ожидающая второго ребёнка.</h2>
+                    </div>
+
+                    <div>
+                        <h2 style={{color: 'black'}}><strong>После первых родов сбросила 20 кг за 100
+                            дней, </strong> благодаря собственной системе
+                            тренировок для беременных.</h2>
+                    </div>
+
+                    <div className='watch-video-btn'>
+                        <button className='course-text'><strong>Смотрите видео о курсе</strong></button>
+                    </div>
                 </div>
 
                 {/*<div className='author-video'>*/}

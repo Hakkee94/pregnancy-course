@@ -3,8 +3,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-top: 70px;
-
+    padding-top: 40px;
 }
 
 .instamama-text {
@@ -102,9 +101,6 @@
     }
 
     .instamama-text {
-        /*display: flex;*/
-        /*flex-direction: column;*/
-        /*justify-content: center;*/
         padding-bottom: 20px;
     }
 }

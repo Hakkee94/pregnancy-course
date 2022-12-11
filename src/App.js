@@ -12,25 +12,29 @@ import Presents from "./components/Presents";
 import PriceList from "./components/PriceList";
 import BeforeAndAfter from "./components/BeforeAndAfter";
 import Faq from "./components/Faq";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
 
 function App() {
-  return (
-    <div className="App">
-      <AuthorUsmanovaSection/>
-      <InstaMamaa/>
-      <UniqueProgram/>
-      <EnrollSection/>
-      <WhatWillYouGet/>
-      <WaitingForYou/>
-      <Inventory/>
-      <PrepareYourBody/>
-      <Contraindication/>
-      <Presents/>
-      <PriceList/>
-      <BeforeAndAfter/>
-      <Faq/>
-    </div>
-  );
+    return (
+        <div className="App">
+            <Header/>
+            <AuthorUsmanovaSection/>
+            <InstaMamaa/>
+            <UniqueProgram/>
+            <EnrollSection/>
+            <WhatWillYouGet/>
+            <WaitingForYou/>
+            <Inventory/>
+            <PrepareYourBody/>
+            <Contraindication/>
+            <Presents/>
+            <PriceList/>
+            <BeforeAndAfter/>
+            <Faq/>
+            <Footer/>
+        </div>
+    );
 }
 
 export default App;

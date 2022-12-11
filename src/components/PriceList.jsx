@@ -12,9 +12,14 @@ const PriceList = () => {
                 </div>
 
                 <div className='start'>
-                    <img style={{height: "30px"}}
-                         src='https://d2gg9evh47fn9z.cloudfront.net/1600px_COLOURBOX5629599.jpg'/>
-                    <h2>Старт - 28 ноября</h2>
+                    <div>
+                        <img style={{height: "30px"}}
+                             src='https://d2gg9evh47fn9z.cloudfront.net/1600px_COLOURBOX5629599.jpg'/>
+                    </div>
+
+                    <div>
+                        <h2>Старт - 28 ноября</h2>
+                    </div>
                 </div>
 
                 <h2><strong>Выберите вариант участия:</strong></h2>

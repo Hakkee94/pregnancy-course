@@ -11,23 +11,24 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #F8F9FB;
-
-
 }
 
 .author {
     display: flex;
-    min-height: 460px;
     align-self: stretch;
     background-color: #F8F9FB;
-    padding: 30px 0 30px 0;
     border: 0 solid #999999;
     border-radius: 10px;
     align-items: center;
-    justify-content: space-evenly;
-    max-width: 1200px;
+    justify-content: space-between;
+    max-width: 1440px;
     align-self: center;
-    margin-top: 45px;
+    padding: 15px 0 15px;
+}
+
+.watch-video-btn {
+    display: flex;
+    justify-content: center;
 }
 
 .author-info {
@@ -35,9 +36,19 @@ body {
     flex-direction: column;
     justify-content: space-between;
     font-family: Montserrat, sans-serif;
-    max-width: 1200px;
-    margin: 0 40px 0 40px;
-    padding-left: 40px;
+    max-width: 1440px;
+}
+
+.author-info div {
+    padding: 10px;
+}
+
+.author-info div h1 {
+    margin: 0;
+}
+
+.author-info div h2 {
+    margin: 0;
 }
 
 .champ {
@@ -68,12 +79,23 @@ h1 {
     text-transform: uppercase;
     line-height: 1.42857143;
     text-align: center;
+    margin: 0;
 }
 
-.author-video {
-    margin: 0 40px 0 40px;
-    max-height: 50vh;
-    max-width: 50vw;
+.watch-video-btn button {
+    width: 300px;
+    height: 48px;
+    background: linear-gradient(90deg, #FF5BA9 0%, #E91776 99.93%);
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
 }
 
 .author-video iframe {
@@ -114,10 +136,7 @@ h1 {
         font-size: 16px;
     }
 
-    .author-name {
-        /*text-align: center;*/
-        font-size: 40px;
-    }
+
 
     .author-video iframe {
         display: flex;
@@ -132,27 +151,15 @@ h1 {
     }
 }
 
+@media screen and (max-width: 740px) {
+    .author-name {
+        font-size: 35px;
+    }
+}
+
 @media screen and (max-width: 1020px) {
     .author {
         flex-direction: column;
     }
 
-    .author-info {
-        /*align-items: center;*/
-        padding-bottom: 30px;
-    }
-
-    .author-name {
-        /*text-align: center;*/
-    }
-
-    .author-info {
-        padding: 30px 0 30px 0px;
-    }
-}
-
-@media screen and (max-width: 1070px) {
-    .author-video {
-        max-width: 100%;
-    }
 }

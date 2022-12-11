@@ -5,7 +5,7 @@ const Contraindication = () => {
     return (
         <div className='contraindication-container'>
             <div className='contraindication-title'>
-                <h1><strong>общие противопоказания для тренировок</strong></h1>
+                <h1>общие противопоказания для тренировок</h1>
             </div>
 
             <div className='contraindication-list'>

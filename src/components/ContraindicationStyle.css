@@ -7,7 +7,7 @@
 }
 
 .contraindication-title h1 {
-    font-size: 60px;
+    font-size: 50px;
     text-transform: uppercase;
     color: #E91776;
     font-family: "Bebas Neue";
@@ -19,6 +19,7 @@
 .contraindication-title {
     display: flex;
     align-items: center;
+    max-width: 600px;
 }
 
 .contraindication-list {
@@ -29,6 +30,7 @@
     font-family: Montserrat, sans-serif;
     font-size: 16px;
     color: #863159;
+    text-align: left;
 }
 
 .contraindication-list div {
@@ -45,8 +47,13 @@
         flex-direction: column;
     }
 
+    .contraindication-title {
+        max-width: 100%;
+    }
+
     .contraindication-title h1 {
-        font-size: 40px;
+        font-size: 31px;
+        text-align: center;
     }
 }
 /*@media screen and (max-width: 430px) {*/

@@ -62,7 +62,7 @@
     text-decoration: none;
     text-align: center;
     background: linear-gradient(90deg, #FF5BA9 0%, #E91776 99.93%);
-    border-bottom: 4px solid #cf1469;
+    /*border-bottom: 4px solid #cf1469;*/
     font-size: 18px;
     line-height: 1;
     font-weight: 600;
@@ -74,6 +74,9 @@
     box-shadow: 0px 12px 22px 0px #ee477780;
     outline: none;
     font-family: 'Montserrat', sans-serif;
+    border: none;
+    color: #FFFFFF;
+
 }
 
 .you-get-container {
